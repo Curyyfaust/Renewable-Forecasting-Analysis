@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this code and its processed results, please cite this software and the associated manuscript."
+type: software
+title: "Weather-NC: Spatiotemporal forecast errors and the operational value of renewable energy prediction in China"
+version: 1.0.0
+license: MIT
+repository-code: "https://github.com/Curyyfaust/Renewable-Forecasting-Analysis"
+authors:
+  - family-names: Li
+    given-names: Chenghan
+  - family-names: Feng
+    given-names: Wanjin
+  - family-names: Li
+    given-names: Mingchen
+  - family-names: Liang
+    given-names: Yuxuan
+  - family-names: Li
+    given-names: Yong
+  - family-names: Wang
+    given-names: Guan
+  - family-names: Xu
+    given-names: Yinliang

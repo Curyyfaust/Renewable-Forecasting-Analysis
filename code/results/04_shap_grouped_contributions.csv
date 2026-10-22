@@ -1,0 +1,13 @@
+target,group,mean_abs_shap,share_pct
+total_cost,Temporal bias,18.16164136,44.45757051
+total_cost,Temporal variability,5.34639007,13.08733659
+total_cost,Spatial bias,14.04988777,34.39247941
+total_cost,Spatial variability,3.29370888,8.06261350
+balancing_cost,Temporal bias,2.35088622,27.44030923
+balancing_cost,Temporal variability,0.90325330,10.54306649
+balancing_cost,Spatial bias,4.47183177,52.19667603
+balancing_cost,Spatial variability,0.84130178,9.81994826
+co2,Temporal bias,0.06563607,54.16448118
+co2,Temporal variability,0.00938598,7.74554136
+co2,Spatial bias,0.03688369,30.43732074
+co2,Spatial variability,0.00927343,7.65265672

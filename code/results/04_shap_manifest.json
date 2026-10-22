@@ -1,0 +1,51 @@
+{
+  "samples": 1460,
+  "operation_days": 365,
+  "models": [
+    "CNN",
+    "LSTM",
+    "Transformer",
+    "DNN"
+  ],
+  "features": [
+    "underforecast_bias_gw",
+    "overforecast_bias_gw",
+    "maximum_hourly_error_gw",
+    "temporal_error_sd_gw",
+    "ramp_error_gw",
+    "error_persistence_h",
+    "provincial_abs_bias_gw",
+    "spatial_error_sd_gw",
+    "spatial_p90_gw",
+    "spatial_concentration",
+    "region_N_under_gw",
+    "region_N_over_gw",
+    "region_N_dispersion_gw",
+    "region_E_under_gw",
+    "region_E_over_gw",
+    "region_E_dispersion_gw",
+    "region_NW_under_gw",
+    "region_NW_over_gw",
+    "region_NW_dispersion_gw",
+    "region_NE_under_gw",
+    "region_NE_over_gw",
+    "region_NE_dispersion_gw",
+    "region_SW_under_gw",
+    "region_SW_over_gw",
+    "region_SW_dispersion_gw",
+    "region_C_under_gw",
+    "region_C_over_gw",
+    "region_C_dispersion_gw",
+    "region_S_under_gw",
+    "region_S_over_gw",
+    "region_S_dispersion_gw"
+  ],
+  "targets": {
+    "total_cost": "daily total operating cost change versus perfect forecast (million CNY)",
+    "balancing_cost": "daily balancing cost (million CNY)",
+    "co2": "daily direct CO2 change versus perfect forecast (Mt)"
+  },
+  "validation": "leave-one-season-out; all four models for a date remain in the same fold",
+  "interpretation": "SHAP associations are predictive explanations, not causal effects",
+  "random_seed": 42
+}

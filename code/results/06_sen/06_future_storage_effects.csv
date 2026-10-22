@@ -1,0 +1,57 @@
+year,model,metric,metric_label,storage_share_pct,no_storage,with_storage,reduction_pct
+2030,CNN,balancing_cost_penalty_bn_cny,Balancing cost,10.0000000,10.9982026,3.8125237,65.3350294
+2030,CNN,conventional_adjustment_penalty_twh,Conventional adjustment,10.0000000,317.1403922,138.0134146,56.4819184
+2030,CNN,downward_adjustment_penalty_twh,Downward adjustment,10.0000000,230.6936868,115.9964722,49.7184020
+2030,CNN,cost_penalty_bn_cny,Total cost,10.0000000,46.1479652,33.8515363,26.6456579
+2030,CNN,co2_penalty_mt,Direct CO$_2$,10.0000000,110.5652044,90.4834815,18.1627873
+2030,CNN,curtailment_twh,Curtailment,10.0000000,20.3987166,8.2606037,59.5042969
+2030,CNN,link_adjustment_twh,Link-flow adjustment,10.0000000,163.6854794,128.5747114,21.4501422
+2030,LSTM,balancing_cost_penalty_bn_cny,Balancing cost,10.0000000,12.2554946,4.7787345,61.0074117
+2030,LSTM,conventional_adjustment_penalty_twh,Conventional adjustment,10.0000000,288.6703580,113.3327981,60.7397175
+2030,LSTM,downward_adjustment_penalty_twh,Downward adjustment,10.0000000,171.5171180,68.7630699,59.9089171
+2030,LSTM,cost_penalty_bn_cny,Total cost,10.0000000,39.0722117,22.0794058,43.4907703
+2030,LSTM,co2_penalty_mt,Direct CO$_2$,10.0000000,84.7743022,52.1480018,38.4860737
+2030,LSTM,curtailment_twh,Curtailment,10.0000000,20.3987166,8.2606037,59.5042969
+2030,LSTM,link_adjustment_twh,Link-flow adjustment,10.0000000,151.1648137,125.6966003,16.8479773
+2030,Transformer,balancing_cost_penalty_bn_cny,Balancing cost,10.0000000,10.0897411,2.9768533,70.4962365
+2030,Transformer,conventional_adjustment_penalty_twh,Conventional adjustment,10.0000000,266.4669649,89.5621254,66.3890323
+2030,Transformer,downward_adjustment_penalty_twh,Downward adjustment,10.0000000,177.7285558,66.6388596,62.5052602
+2030,Transformer,cost_penalty_bn_cny,Total cost,10.0000000,38.3274412,24.4890961,36.1055804
+2030,Transformer,co2_penalty_mt,Direct CO$_2$,10.0000000,89.4260202,64.7681911,27.5734390
+2030,Transformer,curtailment_twh,Curtailment,10.0000000,20.3987166,8.2606037,59.5042969
+2030,Transformer,link_adjustment_twh,Link-flow adjustment,10.0000000,144.1210898,118.0905486,18.0615767
+2030,DNN,balancing_cost_penalty_bn_cny,Balancing cost,10.0000000,9.3454992,2.5865730,72.3227951
+2030,DNN,conventional_adjustment_penalty_twh,Conventional adjustment,10.0000000,253.4252656,84.0558130,66.8321101
+2030,DNN,downward_adjustment_penalty_twh,Downward adjustment,10.0000000,175.0469590,66.6876400,61.9030000
+2030,DNN,cost_penalty_bn_cny,Total cost,10.0000000,37.0499440,24.9666960,32.6134041
+2030,DNN,co2_penalty_mt,Direct CO$_2$,10.0000000,87.5330972,67.1404741,23.2970428
+2030,DNN,curtailment_twh,Curtailment,10.0000000,20.3987166,8.2606037,59.5042969
+2030,DNN,link_adjustment_twh,Link-flow adjustment,10.0000000,152.0598447,120.5324985,20.7335120
+2050,CNN,balancing_cost_penalty_bn_cny,Balancing cost,20.0000000,16.0060909,4.7643936,70.2338716
+2050,CNN,conventional_adjustment_penalty_twh,Conventional adjustment,20.0000000,444.1406553,135.1265380,69.5757332
+2050,CNN,downward_adjustment_penalty_twh,Downward adjustment,20.0000000,283.9365547,83.4629749,70.6050617
+2050,CNN,cost_penalty_bn_cny,Total cost,20.0000000,49.0055780,25.9005013,47.1478507
+2050,CNN,co2_penalty_mt,Direct CO$_2$,20.0000000,104.9134523,60.2508594,42.5708924
+2050,CNN,curtailment_twh,Curtailment,20.0000000,535.5981928,222.1470625,58.5235601
+2050,CNN,link_adjustment_twh,Link-flow adjustment,20.0000000,184.6288344,162.0275711,12.2414591
+2050,LSTM,balancing_cost_penalty_bn_cny,Balancing cost,20.0000000,18.8620564,8.9414457,52.5955945
+2050,LSTM,conventional_adjustment_penalty_twh,Conventional adjustment,20.0000000,419.3718224,169.7699959,59.5180251
+2050,LSTM,downward_adjustment_penalty_twh,Downward adjustment,20.0000000,197.2537016,56.3585181,71.4284104
+2050,LSTM,cost_penalty_bn_cny,Total cost,20.0000000,43.8530628,19.8786579,54.6698527
+2050,LSTM,co2_penalty_mt,Direct CO$_2$,20.0000000,80.0654323,32.3148456,59.6394540
+2050,LSTM,curtailment_twh,Curtailment,20.0000000,535.5981928,222.1470625,58.5235601
+2050,LSTM,link_adjustment_twh,Link-flow adjustment,20.0000000,173.4347615,163.4551425,5.7541054
+2050,Transformer,balancing_cost_penalty_bn_cny,Balancing cost,20.0000000,13.1095960,3.4066409,74.0141429
+2050,Transformer,conventional_adjustment_penalty_twh,Conventional adjustment,20.0000000,350.4958461,78.7316118,77.5370771
+2050,Transformer,downward_adjustment_penalty_twh,Downward adjustment,20.0000000,211.7312945,34.2645421,83.8169685
+2050,Transformer,cost_penalty_bn_cny,Total cost,20.0000000,41.0405791,22.7787790,44.4969359
+2050,Transformer,co2_penalty_mt,Direct CO$_2$,20.0000000,89.0598511,56.2112862,36.8836962
+2050,Transformer,curtailment_twh,Curtailment,20.0000000,535.5981928,222.1470625,58.5235601
+2050,Transformer,link_adjustment_twh,Link-flow adjustment,20.0000000,182.9900301,171.8073788,6.1110713
+2050,DNN,balancing_cost_penalty_bn_cny,Balancing cost,20.0000000,13.2250789,4.0461267,69.4056516
+2050,DNN,conventional_adjustment_penalty_twh,Conventional adjustment,20.0000000,346.7185038,92.6204078,73.2865691
+2050,DNN,downward_adjustment_penalty_twh,Downward adjustment,20.0000000,207.5521287,42.2784515,79.6299601
+2050,DNN,cost_penalty_bn_cny,Total cost,20.0000000,43.8862329,22.2759547,49.2415885
+2050,DNN,co2_penalty_mt,Direct CO$_2$,20.0000000,97.4202001,53.0780205,45.5164119
+2050,DNN,curtailment_twh,Curtailment,20.0000000,535.5981928,222.1470625,58.5235601
+2050,DNN,link_adjustment_twh,Link-flow adjustment,20.0000000,170.1973009,172.4717649,-1.3363691

@@ -1,0 +1,9 @@
+model,objective,annual_reduction,ci95_low,ci95_high,block_days,bootstrap_repeats,paired_operational_days,unit
+CNN,Total operating cost,4.68170394,3.77898289,5.60972463,7,5000,365,bn CNY
+CNN,Direct CO2,65.02897384,55.16328502,75.65893670,7,5000,365,Mt
+LSTM,Total operating cost,4.62351995,3.51693875,5.89136655,7,5000,365,bn CNY
+LSTM,Direct CO2,68.18292371,57.04065093,80.23342976,7,5000,365,Mt
+Transformer,Total operating cost,0.64121244,0.40190364,0.87676930,7,5000,365,bn CNY
+Transformer,Direct CO2,42.31823381,37.54673662,46.93122239,7,5000,365,Mt
+DNN,Total operating cost,2.48840195,1.86547472,3.17959367,7,5000,365,bn CNY
+DNN,Direct CO2,45.43623919,38.76610737,52.33208623,7,5000,365,Mt

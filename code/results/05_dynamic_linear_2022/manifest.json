@@ -1,0 +1,48 @@
+{
+  "created_utc": "2026-09-29T12:50:57.250723+00:00",
+  "base_model_training": "2021 chronological 75/25 train-validation split",
+  "calibrator_initialisation": "final-quarter 2021 validation residuals only",
+  "test_period": "2022 full year",
+  "update_frequency": "daily at forecast origin",
+  "observation_rule": "valid_time <= forecast_origin",
+  "objectives": {
+    "cost": "weighted toward large absolute historical errors",
+    "co2": "weighted toward historical underforecast residuals"
+  },
+  "features": [
+    "intercept",
+    "forecast_level",
+    "forecast_ramp",
+    "hour_sin",
+    "hour_cos",
+    "doy_sin",
+    "doy_cos",
+    "lagged_bias"
+  ],
+  "window_days": 60,
+  "forgetting_factor": 0.98,
+  "ridge": 2.0,
+  "max_correction_share": 0.35,
+  "gain_selection": "nested chronological split within the 2021 validation quarter; zero gain allowed",
+  "hyperparameter_selection": "fixed before 2022; no 2022 outcome-based candidate selection",
+  "all_audit_rows_leakage_free": true,
+  "plot_created": false,
+  "operational_validation": "full 8,760-hour two-stage PyPSA dispatch",
+  "dispatch_outputs": [
+    "2022_dispatch_daily.csv",
+    "2022_dispatch_annual.csv"
+  ],
+  "objective_summary": "2022_objective_specific_summary.csv",
+  "cost_decreased_for_all_models": true,
+  "co2_decreased_for_all_models": true,
+  "cost_definition": "total operating cost = realised fuel cost + balancing cost",
+  "annual_reduction_uncertainty": {
+    "method": "paired circular moving-block bootstrap of daily Raw-minus-dynamic effects",
+    "block_days": 7,
+    "bootstrap_repeats": 5000,
+    "confidence_interval": "95% percentile interval",
+    "boundary_handling": "two partial calendar-boundary days combined into one operational day",
+    "daily_output": "../05_dynamic_daily_reductions.csv",
+    "summary_output": "../05_dynamic_reduction_uncertainty.csv"
+  }
+}

@@ -1,0 +1,343 @@
+{
+  "created_utc": "2026-10-04T08:24:21.180607+00:00",
+  "experiment": "storage sensitivity in current and controlled SSP1.5 renewable-capacity states",
+  "weather_year": 2020,
+  "temporal_design": "24 exogenous seasonal cluster medoids weighted to 365 days",
+  "days_per_season": 6,
+  "selection_features": [
+    "mean load",
+    "peak load",
+    "load SD",
+    "mean wind",
+    "wind SD",
+    "peak wind",
+    "mean solar",
+    "peak solar"
+  ],
+  "system_boundary": "2020 load, weather shapes, conventional fleet and transmission fixed; wind and solar scaled to MESSAGE SSP1.5 capacity states",
+  "controlled_variables": [
+    "wind capacity",
+    "solar capacity",
+    "battery power"
+  ],
+  "scenarios": [
+    {
+      "scenario": "2020_S00",
+      "year": 2020,
+      "storage_share": 0.0,
+      "storage_hours": 4,
+      "wind_tw": 0.28153,
+      "solar_tw": 0.25343,
+      "pathway": false
+    },
+    {
+      "scenario": "2020_S05",
+      "year": 2020,
+      "storage_share": 0.05,
+      "storage_hours": 4,
+      "wind_tw": 0.28153,
+      "solar_tw": 0.25343,
+      "pathway": false
+    },
+    {
+      "scenario": "2020_S10",
+      "year": 2020,
+      "storage_share": 0.1,
+      "storage_hours": 4,
+      "wind_tw": 0.28153,
+      "solar_tw": 0.25343,
+      "pathway": false
+    },
+    {
+      "scenario": "2020_S20",
+      "year": 2020,
+      "storage_share": 0.2,
+      "storage_hours": 4,
+      "wind_tw": 0.28153,
+      "solar_tw": 0.25343,
+      "pathway": false
+    },
+    {
+      "scenario": "2030_S00",
+      "year": 2030,
+      "storage_share": 0.0,
+      "storage_hours": 4,
+      "wind_tw": 0.755922852,
+      "solar_tw": 0.765945374,
+      "pathway": true
+    },
+    {
+      "scenario": "2030_S10",
+      "year": 2030,
+      "storage_share": 0.1,
+      "storage_hours": 4,
+      "wind_tw": 0.755922852,
+      "solar_tw": 0.765945374,
+      "pathway": true
+    },
+    {
+      "scenario": "2050_S00",
+      "year": 2050,
+      "storage_share": 0.0,
+      "storage_hours": 4,
+      "wind_tw": 1.597093872,
+      "solar_tw": 1.715657837,
+      "pathway": true
+    },
+    {
+      "scenario": "2050_S20",
+      "year": 2050,
+      "storage_share": 0.2,
+      "storage_hours": 4,
+      "wind_tw": 1.597093872,
+      "solar_tw": 1.715657837,
+      "pathway": true
+    }
+  ],
+  "storage_power_shares_of_wind_plus_solar": {
+    "2020": [
+      0.0,
+      0.05,
+      0.1,
+      0.2
+    ],
+    "2030": [
+      0.0,
+      0.1
+    ],
+    "2050": [
+      0.0,
+      0.2
+    ]
+  },
+  "storage_duration_hours": 4,
+  "storage_allocation": "provincial share proportional to installed provincial wind-plus-solar power",
+  "matched_baseline": "each forecast case is compared with Perfect at the identical year and storage level",
+  "penalty_definition": "Forecast minus Perfect within storage state",
+  "storage_mitigation_definition": "penalty(storage) minus penalty(no storage); negative values indicate mitigation",
+  "max_implied_load_shedding_gw": 2.0000015865662135e-07,
+  "models": [
+    "CNN",
+    "LSTM",
+    "Transformer",
+    "DNN"
+  ],
+  "representative_dates": [
+    {
+      "season": "Autumn",
+      "cluster": 1,
+      "month": 11,
+      "representative_date": "2020-11-13",
+      "weight_days": 31,
+      "mean_cluster_distance": 1.236083140832209,
+      "max_cluster_distance": 1.8612951995532767
+    },
+    {
+      "season": "Autumn",
+      "cluster": 2,
+      "month": 9,
+      "representative_date": "2020-09-08",
+      "weight_days": 9,
+      "mean_cluster_distance": 1.2740033282652656,
+      "max_cluster_distance": 2.160595577417762
+    },
+    {
+      "season": "Autumn",
+      "cluster": 3,
+      "month": 10,
+      "representative_date": "2020-10-03",
+      "weight_days": 3,
+      "mean_cluster_distance": 1.1115879827501007,
+      "max_cluster_distance": 2.018627006565927
+    },
+    {
+      "season": "Autumn",
+      "cluster": 4,
+      "month": 11,
+      "representative_date": "2020-11-26",
+      "weight_days": 13,
+      "mean_cluster_distance": 1.1826660265737563,
+      "max_cluster_distance": 1.923763035767858
+    },
+    {
+      "season": "Autumn",
+      "cluster": 5,
+      "month": 10,
+      "representative_date": "2020-10-02",
+      "weight_days": 27,
+      "mean_cluster_distance": 1.5381122904336266,
+      "max_cluster_distance": 2.8959862793963342
+    },
+    {
+      "season": "Autumn",
+      "cluster": 6,
+      "month": 9,
+      "representative_date": "2020-09-16",
+      "weight_days": 8,
+      "mean_cluster_distance": 1.4286883629605025,
+      "max_cluster_distance": 2.018226982466555
+    },
+    {
+      "season": "Spring",
+      "cluster": 1,
+      "month": 5,
+      "representative_date": "2020-05-01",
+      "weight_days": 38,
+      "mean_cluster_distance": 1.580633319243691,
+      "max_cluster_distance": 2.67165980592336
+    },
+    {
+      "season": "Spring",
+      "cluster": 2,
+      "month": 3,
+      "representative_date": "2020-03-15",
+      "weight_days": 13,
+      "mean_cluster_distance": 1.1703538507682898,
+      "max_cluster_distance": 1.7424411890722766
+    },
+    {
+      "season": "Spring",
+      "cluster": 3,
+      "month": 3,
+      "representative_date": "2020-03-29",
+      "weight_days": 15,
+      "mean_cluster_distance": 1.3967098065246473,
+      "max_cluster_distance": 2.257679910524431
+    },
+    {
+      "season": "Spring",
+      "cluster": 4,
+      "month": 5,
+      "representative_date": "2020-05-29",
+      "weight_days": 7,
+      "mean_cluster_distance": 1.736496613421283,
+      "max_cluster_distance": 2.743942082502262
+    },
+    {
+      "season": "Spring",
+      "cluster": 5,
+      "month": 5,
+      "representative_date": "2020-05-11",
+      "weight_days": 5,
+      "mean_cluster_distance": 1.2310602214793975,
+      "max_cluster_distance": 1.777917726927891
+    },
+    {
+      "season": "Spring",
+      "cluster": 6,
+      "month": 3,
+      "representative_date": "2020-03-10",
+      "weight_days": 14,
+      "mean_cluster_distance": 1.256301570530912,
+      "max_cluster_distance": 2.460019500753744
+    },
+    {
+      "season": "Summer",
+      "cluster": 1,
+      "month": 8,
+      "representative_date": "2020-08-21",
+      "weight_days": 38,
+      "mean_cluster_distance": 1.5669405546024449,
+      "max_cluster_distance": 3.1355464882915367
+    },
+    {
+      "season": "Summer",
+      "cluster": 2,
+      "month": 6,
+      "representative_date": "2020-06-07",
+      "weight_days": 1,
+      "mean_cluster_distance": 0.0,
+      "max_cluster_distance": 0.0
+    },
+    {
+      "season": "Summer",
+      "cluster": 3,
+      "month": 6,
+      "representative_date": "2020-06-02",
+      "weight_days": 7,
+      "mean_cluster_distance": 1.4632384631569724,
+      "max_cluster_distance": 2.092761354795296
+    },
+    {
+      "season": "Summer",
+      "cluster": 4,
+      "month": 7,
+      "representative_date": "2020-07-19",
+      "weight_days": 12,
+      "mean_cluster_distance": 1.0531328270698912,
+      "max_cluster_distance": 2.738117585914126
+    },
+    {
+      "season": "Summer",
+      "cluster": 5,
+      "month": 7,
+      "representative_date": "2020-07-30",
+      "weight_days": 31,
+      "mean_cluster_distance": 1.163739765735295,
+      "max_cluster_distance": 2.0959880614607127
+    },
+    {
+      "season": "Summer",
+      "cluster": 6,
+      "month": 6,
+      "representative_date": "2020-06-21",
+      "weight_days": 3,
+      "mean_cluster_distance": 1.1731183758790529,
+      "max_cluster_distance": 1.980769443404963
+    },
+    {
+      "season": "Winter",
+      "cluster": 1,
+      "month": 12,
+      "representative_date": "2020-12-10",
+      "weight_days": 55,
+      "mean_cluster_distance": 1.2655064559271123,
+      "max_cluster_distance": 2.6653601279413124
+    },
+    {
+      "season": "Winter",
+      "cluster": 2,
+      "month": 2,
+      "representative_date": "2020-02-14",
+      "weight_days": 2,
+      "mean_cluster_distance": 0.7071334598372847,
+      "max_cluster_distance": 1.4142669196745694
+    },
+    {
+      "season": "Winter",
+      "cluster": 3,
+      "month": 2,
+      "representative_date": "2020-02-20",
+      "weight_days": 3,
+      "mean_cluster_distance": 1.0845110146148946,
+      "max_cluster_distance": 1.913779598307444
+    },
+    {
+      "season": "Winter",
+      "cluster": 4,
+      "month": 12,
+      "representative_date": "2020-12-30",
+      "weight_days": 3,
+      "mean_cluster_distance": 1.566626737271173,
+      "max_cluster_distance": 2.676583856215623
+    },
+    {
+      "season": "Winter",
+      "cluster": 5,
+      "month": 12,
+      "representative_date": "2020-12-12",
+      "weight_days": 4,
+      "mean_cluster_distance": 1.309060758628951,
+      "max_cluster_distance": 1.843326062901636
+    },
+    {
+      "season": "Winter",
+      "cluster": 6,
+      "month": 2,
+      "representative_date": "2020-02-10",
+      "weight_days": 23,
+      "mean_cluster_distance": 1.333641643999448,
+      "max_cluster_distance": 1.9728213226172928
+    }
+  ]
+}

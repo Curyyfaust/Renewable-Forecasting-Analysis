@@ -1,0 +1,15 @@
+{
+  "created_utc": "2026-09-27T13:13:32.190302+00:00",
+  "pypsa_version": "0.32.2",
+  "solver": "HiGHS",
+  "network": "31省节点和PyPSA-China省际线路",
+  "stage_1": "真实省级负荷和光伏+预测风电",
+  "stage_2": "固定日前机组计划+真实风电+上/下调",
+  "hours": 8760,
+  "models": [
+    "CNN",
+    "LSTM",
+    "Transformer",
+    "DNN"
+  ]
+}

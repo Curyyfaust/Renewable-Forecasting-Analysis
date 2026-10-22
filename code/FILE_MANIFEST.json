@@ -1,0 +1,557 @@
+{
+  "raw_datasets_included": false,
+  "files": [
+    {
+      "path": "00_intro.py",
+      "bytes": 23442,
+      "sha256": "faf93a38d945877ecc70e84d4c1796a4b5f8bd5163cb786728b26901394e4956"
+    },
+    {
+      "path": "01_time.py",
+      "bytes": 23262,
+      "sha256": "28b5ca9a1095c67ec2ea5a8791d5b4eefbab1f4098f8bb497b1b9f9c86b51fc4"
+    },
+    {
+      "path": "02_spatial.py",
+      "bytes": 19512,
+      "sha256": "53811a4912ee793ab0e5111ea1d1786a89c6fb40f9270217c375e1b6bb147e3d"
+    },
+    {
+      "path": "03_transfer.py",
+      "bytes": 22882,
+      "sha256": "65e98508e0603bc64321de260ad6677dd35850fc53a2fbeb5f6ba90df7c9cdb0"
+    },
+    {
+      "path": "04_shap.py",
+      "bytes": 28792,
+      "sha256": "8bd68c17d98a1ef5119e80ff6588b73d55c78211d2185f1495ffb8cb4aac1157"
+    },
+    {
+      "path": "05_dynamic_linear_2022.py",
+      "bytes": 33434,
+      "sha256": "1d09d9a855e16dba0e1c68426a06de8f11a784d8120800d2a0f76e04f819fe9d"
+    },
+    {
+      "path": "05_val.py",
+      "bytes": 43770,
+      "sha256": "169fc7518056e9347342f9e57d0e4d37689a58a818d15c467d0b83856eefd651"
+    },
+    {
+      "path": "06_sen.py",
+      "bytes": 72087,
+      "sha256": "22b4f92b69237660e5586b97d764fc9a86c1665c4b7bad3f40879901df502fe7"
+    },
+    {
+      "path": "data/ssp15_controlled_states.csv",
+      "bytes": 300,
+      "sha256": "a37d976884a642b52a045d7060bc7fa6edd6d2f2f58b9501ba06e6dd5c7ebbac"
+    },
+    {
+      "path": "dataloader/__init__.py",
+      "bytes": 200,
+      "sha256": "c5bc36888b6d2a6603f5bb3229554a62262e8d7f17d5f5b21bfb5d41c9d496ea"
+    },
+    {
+      "path": "dataloader/README.md",
+      "bytes": 921,
+      "sha256": "5c02e3e33e1b432f364543e58854caabe17ba502b675ef06a073e673b89c0a51"
+    },
+    {
+      "path": "dataloader/wind_dataset.py",
+      "bytes": 6198,
+      "sha256": "feae1a85beb77c215ad708ccbb77917c1688807170c599cdc2a818f84617ad86"
+    },
+    {
+      "path": "ENVIRONMENT.txt",
+      "bytes": 92,
+      "sha256": "ae5d34c63e752584ab2b8906042b10e4c9f6e450acc01659019544a5962ca53c"
+    },
+    {
+      "path": "exp.py",
+      "bytes": 12138,
+      "sha256": "3d7ecad2af473b02bcf0a6fa0cc59af48489601f83318b6a6cf71fef6b8de920"
+    },
+    {
+      "path": "figure/00_intro_capacity_values.csv",
+      "bytes": 2067,
+      "sha256": "2f047cb6c6bcc09d42613abefd27e3e8b65b9ed22d5bcec4c09aaa00580055ed"
+    },
+    {
+      "path": "figure/00_intro_forecast_error_values.csv",
+      "bytes": 1746206,
+      "sha256": "382c9b0db91e2d5ad767272dc0de6d5077e4e1199ea890ca9186dae3149ee5d9"
+    },
+    {
+      "path": "figure/00_intro_system_values.csv",
+      "bytes": 81565,
+      "sha256": "85a2908f2cbc41e0030e5757f513e932dd0ff4de504bb36af33a5bf02cb76bab"
+    },
+    {
+      "path": "forecasting_2020.py",
+      "bytes": 11549,
+      "sha256": "4847084684d901693bf999a5ee023cea05915769d5b21523c0e4081db8132f45"
+    },
+    {
+      "path": "main_train.py",
+      "bytes": 5249,
+      "sha256": "cfa06b0b49a9531389af64888bdf623303fd3922c04fc0f48effe3412424d192"
+    },
+    {
+      "path": "model.py",
+      "bytes": 11268,
+      "sha256": "f921ceea864d37111e9d47c03d257dca22493539078f5e399fe08203b1d17c53"
+    },
+    {
+      "path": "PyPSA-china/LICENSES/CC-BY-4.0.txt",
+      "bytes": 17138,
+      "sha256": "0ef7814bce4078681833dd597a960fda6f81492a6fbfffbaa913ddbe56125588"
+    },
+    {
+      "path": "PyPSA-china/LICENSES/CC0-1.0.txt",
+      "bytes": 7035,
+      "sha256": "42d7f40b47124b151d055b579fc4bf50fa9090b15dfc3dd57088ca0d9408da7e"
+    },
+    {
+      "path": "PyPSA-china/LICENSES/MIT.txt",
+      "bytes": 1096,
+      "sha256": "dc4c870e2fe89335db6458e7a996473543f691548888637304f8b3418da94cfc"
+    },
+    {
+      "path": "PyPSA-china/main_dispatch.py",
+      "bytes": 14775,
+      "sha256": "b0f244cb9a6bce5848b091d36c13e960f98a942f57e5e8f8f4b69d1b8c31e4f8"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5058,
+      "sha256": "3c558a39cb9d3f83b949a0713e0bbbfb7f1675b7791e8dedc281ae51be9d3cea"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 313,
+      "sha256": "d7b38ab132d36460a00604baadca87ad0c586c2058715639c67f194bfcc8774f"
+    },
+    {
+      "path": "results/01_time_metrics.csv",
+      "bytes": 1679,
+      "sha256": "341f88386469f03d303a843c1199eaf1c5a5a19c5dfea6649b3506f3764e2743"
+    },
+    {
+      "path": "results/02_spatial_metrics.csv",
+      "bytes": 39315,
+      "sha256": "ec7c9bacb72322b28d1a508e85849330cbe232034f85c47ec93e61cc0b7b17be"
+    },
+    {
+      "path": "results/03_transfer_flows.csv",
+      "bytes": 63482,
+      "sha256": "5abc35da464b2b58713674aed2e57522b6f918a90bd4936595616fef9c82034a"
+    },
+    {
+      "path": "results/04_shap_features.csv",
+      "bytes": 581967,
+      "sha256": "541c7fa20fa24ded77e28030a248cc3a452f96403ddf083b5f28271bf200d1b8"
+    },
+    {
+      "path": "results/04_shap_grouped_contributions.csv",
+      "bytes": 648,
+      "sha256": "20395c49521de4c88dfc645e4d28571edc773462cf0f5bae57e68ebf5f8174a6"
+    },
+    {
+      "path": "results/04_shap_manifest.json",
+      "bytes": 1462,
+      "sha256": "a3c2119dab2f74b3f60e257c4b6047a0afa6ad6729a027eed3592800f2b5d556"
+    },
+    {
+      "path": "results/04_shap_region_season.csv",
+      "bytes": 2676,
+      "sha256": "d4105d17e71a5d6e39b67c5b8372a72d92b8f3499835ad2dc4d2c09b43329bc8"
+    },
+    {
+      "path": "results/04_shap_validation.csv",
+      "bytes": 820,
+      "sha256": "246f1656cb1b471bfc76f4c53f21499eb1d04d0c28754d3c707d6f05492b0468"
+    },
+    {
+      "path": "results/04_shap_values_balancing_cost.csv",
+      "bytes": 567206,
+      "sha256": "8e7ac40d7a37efaec65009e480d78e0b6cd2c4591eff63b4bfde7ef47eed7e1e"
+    },
+    {
+      "path": "results/04_shap_values_co2.csv",
+      "bytes": 564391,
+      "sha256": "d478f443896081d4bf91c9f547c889a46c78fea54698cbe615cc306943e0e034"
+    },
+    {
+      "path": "results/04_shap_values_cost.csv",
+      "bytes": 567206,
+      "sha256": "8e7ac40d7a37efaec65009e480d78e0b6cd2c4591eff63b4bfde7ef47eed7e1e"
+    },
+    {
+      "path": "results/04_shap_values_total_cost.csv",
+      "bytes": 566357,
+      "sha256": "dc4eca893c5e7360f6ee77399273b57931d8eba97705976017e1afffacebd9b5"
+    },
+    {
+      "path": "results/05_counterfactual_daily.csv",
+      "bytes": 111784,
+      "sha256": "f202aa708eec282cae217e8110f6019c9ef0fdc9c05c4ecb8ba034a222687085"
+    },
+    {
+      "path": "results/05_counterfactual_features.csv",
+      "bytes": 489622,
+      "sha256": "aa9a0a764626ce80dc4ebeba51d8fa8bb9f5868c5e99e7d40babcf6e6601d74f"
+    },
+    {
+      "path": "results/05_counterfactual_manifest.json",
+      "bytes": 905,
+      "sha256": "ea133fc917836129ca09660cae24734300a90eebde70ddac9622072a845cebfc"
+    },
+    {
+      "path": "results/05_counterfactual_summary.csv",
+      "bytes": 307,
+      "sha256": "cda36caa77a643dac9fb66f41471321fbbf10e7855941966cb738d6388f4f585"
+    },
+    {
+      "path": "results/05_counterfactual_validation.csv",
+      "bytes": 271474,
+      "sha256": "c86b237ca996144e90147c12a5c1b18c48022040d630b3c6f7fbe124fecd73a2"
+    },
+    {
+      "path": "results/05_dynamic_absolute_reductions.csv",
+      "bytes": 819,
+      "sha256": "35bf78010d3947df81f2303d609e262516e1060177e967d8abe2f36b30b2bde0"
+    },
+    {
+      "path": "results/05_dynamic_daily_reductions.csv",
+      "bytes": 158125,
+      "sha256": "b97bd51598e8d2ab415c1ecc78ad8f957afdb97bac57063663455100bdb99954"
+    },
+    {
+      "path": "results/05_dynamic_linear_2022/2021_gain_selection.csv",
+      "bytes": 2775,
+      "sha256": "5fb69c7e8b729dfabbd76160297ebe2aa482812201add3f78479b03a288bb034"
+    },
+    {
+      "path": "results/05_dynamic_linear_2022/2021_training_normalisation.npz",
+      "bytes": 1326,
+      "sha256": "228f1601a6ff3c6aa594334022817f25c8cb034d7fabd7fee9c710557287b515"
+    },
+    {
+      "path": "results/05_dynamic_linear_2022/2021_training_summary.csv",
+      "bytes": 201,
+      "sha256": "29dde9f0aad30522285a5ac572c27f3b831d0d88f74429ddf02af2445f77b748"
+    },
+    {
+      "path": "results/05_dynamic_linear_2022/2022_dispatch_annual.csv",
+      "bytes": 1718,
+      "sha256": "a6a7dcfcfcb99318ffa084791250cf2c82b862b21c76fed0e04b6805108a5bf3"
+    },
+    {
+      "path": "results/05_dynamic_linear_2022/2022_dispatch_daily.csv",
+      "bytes": 373199,
+      "sha256": "c6f02b370f60692361b308d04f49e9d452cb4630208f62e51eed84e8b6998aae"
+    },
+    {
+      "path": "results/05_dynamic_linear_2022/2022_forecast_metrics.csv",
+      "bytes": 2366,
+      "sha256": "dbefc4d184095f1fb5ce4b45c4404a3d16dca574b8740de72d1deb77332cec55"
+    },
+    {
+      "path": "results/05_dynamic_linear_2022/2022_objective_specific_summary.csv",
+      "bytes": 697,
+      "sha256": "c50cfb5b09b177e5ef4cad432e8181ca66df092a66bd925198b9954b8d36d6bf"
+    },
+    {
+      "path": "results/05_dynamic_linear_2022/checkpoints/cnn_2021_best.pt",
+      "bytes": 566206,
+      "sha256": "e62180c34c629424e63e37c1e94089db17c12f1802274ac113d691841ecc3c02"
+    },
+    {
+      "path": "results/05_dynamic_linear_2022/checkpoints/cnn_2021_history.csv",
+      "bytes": 4450,
+      "sha256": "657770aedd81e31a98885a8f9e84272f7c647fc231899ab1f50f472c80d52457"
+    },
+    {
+      "path": "results/05_dynamic_linear_2022/checkpoints/dnn_2021_best.pt",
+      "bytes": 1538102,
+      "sha256": "27bb898080567c0d529b102f777eb22aacc0bb807090b4288741792342e2ed1a"
+    },
+    {
+      "path": "results/05_dynamic_linear_2022/checkpoints/dnn_2021_history.csv",
+      "bytes": 4308,
+      "sha256": "c0454654d06b3318fba875253f115af516c54d2d917a33571f6b013da5c1bc22"
+    },
+    {
+      "path": "results/05_dynamic_linear_2022/checkpoints/lstm_2021_best.pt",
+      "bytes": 5264058,
+      "sha256": "1d2cf23793d5c94b5d2cbf7fe50b40581855934bc62603d53ceb0d08ec265b63"
+    },
+    {
+      "path": "results/05_dynamic_linear_2022/checkpoints/lstm_2021_history.csv",
+      "bytes": 4394,
+      "sha256": "438a04e4c470ade443c6b742211ee04d772ccd97b41f75d2830252e7dc1ef063"
+    },
+    {
+      "path": "results/05_dynamic_linear_2022/checkpoints/transformer_2021_best.pt",
+      "bytes": 4842170,
+      "sha256": "1f461c3b2f4ee09bb081dfb3698a452417e0574a9587925aa690f8a1563c1a81"
+    },
+    {
+      "path": "results/05_dynamic_linear_2022/checkpoints/transformer_2021_history.csv",
+      "bytes": 4337,
+      "sha256": "d31dac561949fc71a2c9435c574df45a6ba3b770d24445f673e1f2437b938c9e"
+    },
+    {
+      "path": "results/05_dynamic_linear_2022/manifest.json",
+      "bytes": 1915,
+      "sha256": "accdac6e1610d867d21cfe3f0c7cc668718033ee416f06637a73bdab62fd78cd"
+    },
+    {
+      "path": "results/05_dynamic_linear_2022/observation_audit_summary.json",
+      "bytes": 237,
+      "sha256": "9ff0438345bdef0e414a779709027a48a32a3b8b9ad68f0226ca26bd9d2aed7c"
+    },
+    {
+      "path": "results/05_dynamic_reduction_uncertainty.csv",
+      "bytes": 701,
+      "sha256": "aacd845350532ebad0208d2d0127af59d295abe691ba525dcf10305e8f102133"
+    },
+    {
+      "path": "results/05_sampled_days.csv",
+      "bytes": 1880,
+      "sha256": "b56785f38ec5b33c8ec024042be4a603d1427dfb67ad64e7af1a4cebdbf2eb69"
+    },
+    {
+      "path": "results/06_sen/06_audit.csv",
+      "bytes": 164,
+      "sha256": "38fdb3273199bf911b938fc1524861583da40470db6c085fff07e09d39ebe11d"
+    },
+    {
+      "path": "results/06_sen/06_current_storage_annual_metrics.csv",
+      "bytes": 8221,
+      "sha256": "19d1bbd12a00be65efaa2d57bd5ec5fe8a0c11564143bf7cf4ab5a225be028b7"
+    },
+    {
+      "path": "results/06_sen/06_current_storage_hourly.csv.gz",
+      "bytes": 1055502,
+      "sha256": "933c25e2823eb22b76c0942baf5147e4785dcf3eac2d09704d9ce68e2e7e280d"
+    },
+    {
+      "path": "results/06_sen/06_future_storage_effects.csv",
+      "bytes": 5558,
+      "sha256": "b2543a03675074a5e8ae9605ac69cf9c44f1bbf132dab69b696e01874246901b"
+    },
+    {
+      "path": "results/06_sen/06_representative_days.csv",
+      "bytes": 1574,
+      "sha256": "4aef8fd20e0919113e9c8bc7be0f7bdb30dd8dee3f3006f5c630f7b100d05112"
+    },
+    {
+      "path": "results/06_sen/06_storage_effects.csv",
+      "bytes": 2913,
+      "sha256": "5ca21694051657ca75c7c6206a5375900514535f23dc071fdac20261330acdea"
+    },
+    {
+      "path": "results/06_sen/06_storage_future_annual_metrics.csv",
+      "bytes": 15978,
+      "sha256": "09b8af70281196f163211ce0863e8f0ccab3b2db2bf3d65e0fd6b247432f2f99"
+    },
+    {
+      "path": "results/06_sen/06_storage_future_hourly.csv.gz",
+      "bytes": 2191048,
+      "sha256": "822ace6760e1cd7e5dbf2767d9a8eb883c114cedd332932daa50c9d897f5d8e7"
+    },
+    {
+      "path": "results/06_sen/06_storage_response_curves.csv",
+      "bytes": 13851,
+      "sha256": "85d821e02e4043f46802d58f6a1a5dfe4a96955ce4455ca9e9dcf6083118bb5c"
+    },
+    {
+      "path": "results/06_sen/manifest.json",
+      "bytes": 9244,
+      "sha256": "736dbf238f72cca4487c437a99194eae5a685252a9184d566ffab53068d6f979"
+    },
+    {
+      "path": "results/cnn_best.pt",
+      "bytes": 565946,
+      "sha256": "c65ef790325347f237f5db8db267a1a2c770fbdd4df568b0817ac2a79b62bdf2"
+    },
+    {
+      "path": "results/cnn_history.csv",
+      "bytes": 4362,
+      "sha256": "df3f4438a312ee6e39e8b639d3aa7e2e0ffad3b61c2f75be8ca6781645a44f52"
+    },
+    {
+      "path": "results/dnn_best.pt",
+      "bytes": 1537962,
+      "sha256": "5570b943b77f7e385346b9cb2224c1780bdb306878992c011d6f39992ef97f5c"
+    },
+    {
+      "path": "results/dnn_history.csv",
+      "bytes": 4354,
+      "sha256": "a9f73d62b56374deef0f68802ca1cdc8ae16afa28c586bb425f53d8e8900b923"
+    },
+    {
+      "path": "results/lstm_best.pt",
+      "bytes": 5263708,
+      "sha256": "54ea4399310e9c545c983d6203786e4bcaa80c1c319805d9ee8b9c85ce7d48da"
+    },
+    {
+      "path": "results/lstm_history.csv",
+      "bytes": 4394,
+      "sha256": "563add1d26f7c43adb09903d75dcbf222568085f0ea54f195be17744ec2f3cb2"
+    },
+    {
+      "path": "results/pypsa_dispatch_2020_all_models.csv",
+      "bytes": 9371967,
+      "sha256": "7c5b427b699d5096d7ea9927397c66813f9e3b53da598307c88ea644e89ab542"
+    },
+    {
+      "path": "results/pypsa_two_stage_2020/annual_metrics.csv",
+      "bytes": 685,
+      "sha256": "bb56b102090425fc6358ac16033d2ea568ada3c6ba9c8097fff865fb25624af7"
+    },
+    {
+      "path": "results/pypsa_two_stage_2020/daily_metrics.csv",
+      "bytes": 166768,
+      "sha256": "6a3653fa3d14cb75684cf2711588f7233d88a291e31317815fd913ea316b3cb7"
+    },
+    {
+      "path": "results/pypsa_two_stage_2020/manifest.json",
+      "bytes": 383,
+      "sha256": "454a92304364db038fce3cf570adc1a1bc00f33af47e17c61552295c20a624ab"
+    },
+    {
+      "path": "results/pypsa_two_stage_2020/perfect_forecast_hourly.csv",
+      "bytes": 1962419,
+      "sha256": "cfe00ef1eef8a65259e3a8cfdf1f56ab5dc39ff58e05057b967ded8464227e53"
+    },
+    {
+      "path": "results/training_summary.json",
+      "bytes": 968,
+      "sha256": "2d3d33c3878bf9cf4e6a5698a9f614168cd98c88f7d10003693e14f1d0a00e03"
+    },
+    {
+      "path": "results/transformer_best.pt",
+      "bytes": 4841290,
+      "sha256": "ef93b5e9047e51d56e26670c13f16b53d5ea2820d2ead82a8aa0ec8a68db9dc1"
+    },
+    {
+      "path": "results/transformer_history.csv",
+      "bytes": 4437,
+      "sha256": "76cee595323c40886548d48c6fde8de4f159db5e9e9497d08ba5c3a89db0e6fc"
+    },
+    {
+      "path": "results/wind_forecast_2020_all_models.csv",
+      "bytes": 10778646,
+      "sha256": "808a22555de421066220aafeb3f60c3096f81c66dea874c8d2f8a1fd44e398c7"
+    },
+    {
+      "path": "supp/01_model_diagnostics.py",
+      "bytes": 7710,
+      "sha256": "b5433af4afb79c87cd24f76fd2f03a57c94842111d8e2a15646b89060a60f354"
+    },
+    {
+      "path": "supp/02_supp.py",
+      "bytes": 8477,
+      "sha256": "7e425163fd2aabe9da4d7bf40e957356fb68019980eed5c1180aefd55cf3f859"
+    },
+    {
+      "path": "supp/03_spatial_supp.py",
+      "bytes": 11697,
+      "sha256": "69b9db00bfbea89fa05ec53944520309d7ef6c239f865ef6fd8c880d6e84c684"
+    },
+    {
+      "path": "supp/04_shap_supp.py",
+      "bytes": 6884,
+      "sha256": "a2731b7c4b692eab9d63e7b249a00bd23cc76c9f93a67a0dfa317587930f07f5"
+    },
+    {
+      "path": "supp/05_validation_supp.py",
+      "bytes": 6439,
+      "sha256": "fef274214e5830aa3114f316785966110e9bbadcfe91cd4626bbcdb3aed82c06"
+    },
+    {
+      "path": "supp/06_typical_day_clustering.py",
+      "bytes": 13857,
+      "sha256": "7cd330b03edcff1c55a16413c6fbad3f402dea4487ed4463d2b028429c83a112"
+    },
+    {
+      "path": "supp/06_typical_day_dispatch.py",
+      "bytes": 8164,
+      "sha256": "f5dfe5f0c10329c3c4ffdf8541d6856061a8433d4dd02e17664074b9b210b2f7"
+    },
+    {
+      "path": "supp/redraw_shap_from_results.py",
+      "bytes": 1092,
+      "sha256": "135032dabd9a8562fe18aa3ebb0de7175d6e839f736b952e553194b641998f28"
+    },
+    {
+      "path": "supp/supp_figure/01_30day_forecasts_values.csv",
+      "bytes": 214331,
+      "sha256": "a40ae13d29faed113b74cd949ed6539bdce200baa42b071adf8fc421b9b82d24"
+    },
+    {
+      "path": "supp/supp_figure/01_30day_selection_metrics.csv",
+      "bytes": 43241,
+      "sha256": "2001fbbe2264878caaf130ce3ec896146d4cff5f0640bedba59cacdaf1b0dbc1"
+    },
+    {
+      "path": "supp/supp_figure/01_training_losses_values.csv",
+      "bytes": 18571,
+      "sha256": "864f2688b9a1d914e5f475e98e71dc867d37ec9508222d0343e33c967cb02f07"
+    },
+    {
+      "path": "supp/supp_figure/02_supp_daily_values.csv",
+      "bytes": 62388,
+      "sha256": "bf37b984234ace2379a1f659d5aa25310807a1b13ac8e18ab4a0410a2597d58f"
+    },
+    {
+      "path": "supp/supp_figure/02_supp_monthly_values.csv",
+      "bytes": 3038,
+      "sha256": "140d38c933e207c48919d26119a3300ff9c85ca6efd972ea6e66f0e5881daf06"
+    },
+    {
+      "path": "supp/supp_figure/03_provincial_attribution_values.csv",
+      "bytes": 20359,
+      "sha256": "dccb000fb77911bf2db9592f70365be815b6068173a7f63f8bc3bb736022e656"
+    },
+    {
+      "path": "supp/supp_figure/03_provincial_variance_values.csv",
+      "bytes": 53549,
+      "sha256": "006ea0179cb14551240d3734e1f91eef2891ab5e708d21bc02469736661e1e1d"
+    },
+    {
+      "path": "supp/supp_figure/04_model_contributions_values.csv",
+      "bytes": 2927,
+      "sha256": "b670041ed9d37181f003c9428107ec54cb130050f47166d18e78e50d24198e87"
+    },
+    {
+      "path": "supp/supp_figure/04_seasonal_contributions_values.csv",
+      "bytes": 2955,
+      "sha256": "a96b3b5f6065a9cc59d4101d0b05ab18b1b5c96f65aa2ae1c1b70cf2999b786c"
+    },
+    {
+      "path": "supp/supp_figure/05_daily_effect_distributions_values.csv",
+      "bytes": 2024,
+      "sha256": "1857b6cb3993ac120c9581749ac715a9985202f05030a146c12ce33416085fc2"
+    },
+    {
+      "path": "supp/supp_figure/05_seasonal_effects_values.csv",
+      "bytes": 3123,
+      "sha256": "5c1269fb40e98f496357433a260841ba0ada01394eb6739cf3f1d0a03fb784c1"
+    },
+    {
+      "path": "supp/supp_figure/06_typical_day_clustering_values.csv",
+      "bytes": 2864,
+      "sha256": "3b92bc9d5f1f3144466466f4770802974999eed4c0be7d662abb5b96b58fbd12"
+    },
+    {
+      "path": "supp/supp_figure/06_typical_day_dispatch_values.csv",
+      "bytes": 113580,
+      "sha256": "4864977418460fe3e22baed2a45bfe60ad57b2ee1fdb72c3ae778059a7fadd0b"
+    }
+  ],
+  "file_count_excluding_manifest": 110,
+  "total_bytes_excluding_manifest": 57215246
+}

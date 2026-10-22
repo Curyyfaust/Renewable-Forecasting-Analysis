@@ -1,0 +1,34 @@
+{
+  "cnn": {
+    "parameters": 45912,
+    "best_epoch": 44,
+    "best_val_mse": 2263683.9378733574,
+    "best_val_mae": 671.5388291517323,
+    "checkpoint": "results\\cnn_best.pt",
+    "history": "results\\cnn_history.csv"
+  },
+  "lstm": {
+    "parameters": 436888,
+    "best_epoch": 17,
+    "best_val_mse": 1812343.9522102748,
+    "best_val_mae": 613.5187145310633,
+    "checkpoint": "results\\lstm_best.pt",
+    "history": "results\\lstm_history.csv"
+  },
+  "transformer": {
+    "parameters": 398977,
+    "best_epoch": 50,
+    "best_val_mse": 1441433.2329749104,
+    "best_val_mae": 512.453470355436,
+    "checkpoint": "results\\transformer_best.pt",
+    "history": "results\\transformer_history.csv"
+  },
+  "dnn": {
+    "parameters": 127512,
+    "best_epoch": 50,
+    "best_val_mse": 1591459.0394265233,
+    "best_val_mae": 549.6615703405018,
+    "checkpoint": "results\\dnn_best.pt",
+    "history": "results\\dnn_history.csv"
+  }
+}

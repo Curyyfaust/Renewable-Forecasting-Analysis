@@ -1,0 +1,49 @@
+metric,model,storage_share_pct,change_from_no_storage,unit
+conventional_adjustment_penalty_twh,CNN,10.0000000,-80.0126212,TWh
+conventional_adjustment_penalty_twh,CNN,20.0000000,-97.0359604,TWh
+conventional_adjustment_penalty_twh,LSTM,10.0000000,-81.6351989,TWh
+conventional_adjustment_penalty_twh,LSTM,20.0000000,-95.6018657,TWh
+conventional_adjustment_penalty_twh,Transformer,10.0000000,-78.6210730,TWh
+conventional_adjustment_penalty_twh,Transformer,20.0000000,-93.3678519,TWh
+conventional_adjustment_penalty_twh,DNN,10.0000000,-72.1419175,TWh
+conventional_adjustment_penalty_twh,DNN,20.0000000,-85.9032183,TWh
+downward_adjustment_penalty_twh,CNN,10.0000000,-53.5139361,TWh
+downward_adjustment_penalty_twh,CNN,20.0000000,-69.6138318,TWh
+downward_adjustment_penalty_twh,LSTM,10.0000000,-50.1616394,TWh
+downward_adjustment_penalty_twh,LSTM,20.0000000,-63.1828443,TWh
+downward_adjustment_penalty_twh,Transformer,10.0000000,-51.5391540,TWh
+downward_adjustment_penalty_twh,Transformer,20.0000000,-65.3043400,TWh
+downward_adjustment_penalty_twh,DNN,10.0000000,-49.0263668,TWh
+downward_adjustment_penalty_twh,DNN,20.0000000,-62.0702840,TWh
+battery_increment_twh,CNN,10.0000000,7.7331696,TWh
+battery_increment_twh,CNN,20.0000000,1.5366644,TWh
+battery_increment_twh,LSTM,10.0000000,10.0450279,TWh
+battery_increment_twh,LSTM,20.0000000,4.6420534,TWh
+battery_increment_twh,Transformer,10.0000000,7.0371601,TWh
+battery_increment_twh,Transformer,20.0000000,2.9386007,TWh
+battery_increment_twh,DNN,10.0000000,4.8343312,TWh
+battery_increment_twh,DNN,20.0000000,0.6214752,TWh
+link_adjustment_penalty_twh,CNN,10.0000000,64.3872398,TWh
+link_adjustment_penalty_twh,CNN,20.0000000,70.8549598,TWh
+link_adjustment_penalty_twh,LSTM,10.0000000,48.2806695,TWh
+link_adjustment_penalty_twh,LSTM,20.0000000,52.3203302,TWh
+link_adjustment_penalty_twh,Transformer,10.0000000,57.8565643,TWh
+link_adjustment_penalty_twh,Transformer,20.0000000,62.2298219,TWh
+link_adjustment_penalty_twh,DNN,10.0000000,45.5961839,TWh
+link_adjustment_penalty_twh,DNN,20.0000000,57.0888277,TWh
+cost_penalty_bn_cny,CNN,10.0000000,-7.5428521,bn CNY
+cost_penalty_bn_cny,CNN,20.0000000,-7.3710995,bn CNY
+cost_penalty_bn_cny,LSTM,10.0000000,-9.7782270,bn CNY
+cost_penalty_bn_cny,LSTM,20.0000000,-9.5876087,bn CNY
+cost_penalty_bn_cny,Transformer,10.0000000,-8.3708458,bn CNY
+cost_penalty_bn_cny,Transformer,20.0000000,-8.5151729,bn CNY
+cost_penalty_bn_cny,DNN,10.0000000,-7.0212485,bn CNY
+cost_penalty_bn_cny,DNN,20.0000000,-6.8875038,bn CNY
+co2_penalty_mt,CNN,10.0000000,-16.0919760,Mt
+co2_penalty_mt,CNN,20.0000000,-15.3813789,Mt
+co2_penalty_mt,LSTM,10.0000000,-21.7826876,Mt
+co2_penalty_mt,LSTM,20.0000000,-20.9362680,Mt
+co2_penalty_mt,Transformer,10.0000000,-18.6220372,Mt
+co2_penalty_mt,Transformer,20.0000000,-18.9354242,Mt
+co2_penalty_mt,DNN,10.0000000,-15.6254698,Mt
+co2_penalty_mt,DNN,20.0000000,-15.1010380,Mt

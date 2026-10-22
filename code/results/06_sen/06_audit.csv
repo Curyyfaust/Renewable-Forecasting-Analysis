@@ -1,0 +1,6 @@
+metric,value
+scenario_model_blocks,40.0
+representative_days,24.0
+sample_hours,23040.0
+weighted_days,365.0
+max_implied_load_shedding_gw,2.0000015865662135e-07

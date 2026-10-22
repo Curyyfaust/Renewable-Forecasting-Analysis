@@ -1,0 +1,26 @@
+{
+  "created_utc": "2026-10-04T09:20:24.113984+00:00",
+  "design": "four-component error decomposition; 50% reduction and complete removal",
+  "counterfactual_outcomes": {
+    "total_cost": "total operating cost (realised fuel cost plus balancing cost)",
+    "balancing_cost": "balancing cost",
+    "co2": "direct operational CO2 emissions"
+  },
+  "sample": "10 severity-stratified operational days per season",
+  "sampled_days": 40,
+  "models": [
+    "CNN",
+    "LSTM",
+    "Transformer",
+    "DNN"
+  ],
+  "dispatch": "same two-stage PyPSA model as main_dispatch.py",
+  "figure_uncertainty": "1000 date-clustered bootstrap replicates; dates resampled within season with all model and intervention rows retained",
+  "interventions": {
+    "TB": "Temporal bias",
+    "TV": "Temporal variability",
+    "SB": "Spatial bias",
+    "SV": "Spatial variability"
+  },
+  "random_seed": 42
+}
